@@ -1,0 +1,118 @@
+body {
+  display: block;
+  margin: 0 10%;
+  background-color: #e9eee9;
+}
+
+.container {
+    display: block;
+    padding: 10px;
+    margin: 10px auto;
+    border: 2px solid rgb(153, 149, 149);
+    border-radius: 25px;
+}
+
+.color-container {
+    display: inline-block;
+    width: 100%;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+
+.color-panel {
+    display: inline-block;
+    width: 32%;
+    margin: 20px auto;
+    min-height: 100px;
+    text-align: center;
+}
+
+.aqua {
+    background-color: #00FFFF;
+    color: black;
+}
+
+.pink {
+    background-color: #FFC0CB;
+    color: black;
+}
+
+.purple {
+    background-color: #A020F0;
+    color: black;
+}
+
+.green {
+    background-color: #008000;
+    color: black;
+}
+
+.yellow {
+    background-color: #e6e61d;
+    color: black;
+}
+
+.beige {
+    background-color: #F5F5DC;
+    color: black;
+}
+
+.font-panel {
+    width: 45%;
+    display: inline-block;
+    padding: 15px;
+}
+
+.font-label {
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.regular {
+    font-style: normal;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.sofia-sans {
+    font-family: 'Sofia Sans', sans-serif;
+}
+
+.roboto-condensed {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.oswald {
+    font-family: 'Oswald', sans-serif;
+}
+
+.roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+.text-panel h1 {
+    font-family: 'Sofia Sans', sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.text-panel h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.text-panel p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
